@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-Driven Test Case Generator
 
 This project provides an AI-driven test case generator using FastAPI. The application accepts a GitHub repository name and generates test cases for the repository using openAI LLM.
@@ -88,3 +89,6 @@ The application uses a configuration file `config.json` for initializing the Tes
     "openai_api_key" : "open api key"
 }
 ```
+=======
+# ai-generate-testcase
+>>>>>>> 5a7e2a8f80208f2c844a5533ae7f99bc2d7de802
