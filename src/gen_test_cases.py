@@ -8,7 +8,7 @@ class TestCaseGenerator:
     def __init__(self, configuration_file_path) -> None:
         with open(configuration_file_path) as f:
             self.config = json.load(f)
-    
+    print("Hii")
     # define function to get the test cases using predefined prompt
 
     def get_completion(self, code):
