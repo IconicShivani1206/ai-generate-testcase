@@ -5,9 +5,6 @@ from github import Auth
 
 
 class TestCaseGenerator:
-    
-    # constructor to read the configuration file 
-
     def __init__(self, configuration_file_path) -> None:
         with open(configuration_file_path) as f:
             self.config = json.load(f)
